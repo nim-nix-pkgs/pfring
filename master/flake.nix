@@ -11,6 +11,7 @@
   inputs.src-pfring-master.ref   = "refs/heads/master";
   inputs.src-pfring-master.owner = "ba0f3";
   inputs.src-pfring-master.repo  = "pfring.nim";
+  inputs.src-pfring-master.dir   = "";
   inputs.src-pfring-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
